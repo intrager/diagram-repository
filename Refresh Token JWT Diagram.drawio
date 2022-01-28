@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T05:06:50.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="LSfi-cMHQnEQBVOl7B_t" version="16.4.11" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-28T04:57:07.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="D4M_ewO5ITVQsZYpulo6" version="16.4.11" type="github">
   <diagram id="8As7zu5LVlnZ0H2C2J7r" name="Page-1">
     <mxGraphModel dx="1037" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Huk9ythuZgXh1tu6I32B-1" value="&lt;span style=&quot;font-size: 24px&quot;&gt;Browser&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="Huk9ythuZgXh1tu6I32B-1" value="&lt;font style=&quot;font-size: 24px&quot;&gt;Client&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="20" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Huk9ythuZgXh1tu6I32B-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="Huk9ythuZgXh1tu6I32B-1" edge="1">
@@ -13,7 +13,7 @@
             <mxPoint x="120" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Huk9ythuZgXh1tu6I32B-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Server&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="Huk9ythuZgXh1tu6I32B-4" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Node.js Server&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="480" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Huk9ythuZgXh1tu6I32B-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -28,11 +28,14 @@
             <mxPoint x="540" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Huk9ythuZgXh1tu6I32B-8" value="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="115" y="230" width="40" height="40" as="geometry" />
+        <mxCell id="Huk9ythuZgXh1tu6I32B-7" value="유저&lt;br&gt;로그인" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=default;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="10" y="290" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Huk9ythuZgXh1tu6I32B-9" value="&lt;span style=&quot;font-size: 16px&quot;&gt;로그인 데이터(&lt;font color=&quot;#c2c22f&quot;&gt;username, password&lt;/font&gt;)를 보냄&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="151" y="240" width="340" height="30" as="geometry" />
+        <mxCell id="Huk9ythuZgXh1tu6I32B-8" value="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="166" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Huk9ythuZgXh1tu6I32B-9" value="&lt;font style=&quot;font-size: 16px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;POST &lt;font color=&quot;#cccc00&quot;&gt;api/auth/signin &lt;/font&gt;에다가&lt;br&gt;{username, password} 얘네 입력해서 보냄(로그인 함)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="410" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Huk9ythuZgXh1tu6I32B-10" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=18;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,8 +46,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Huk9ythuZgXh1tu6I32B-11" value="&lt;span style=&quot;font-size: 16px&quot;&gt;데이터베이스에 세션을 저장함&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="555" y="315" width="230" height="30" as="geometry" />
+        <mxCell id="Huk9ythuZgXh1tu6I32B-11" value="&lt;span style=&quot;font-size: 16px&quot;&gt;{username, password} 를 인증함&lt;/span&gt;&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;암호가 있는(암호화된)&amp;nbsp;&lt;font color=&quot;#009900&quot;&gt;JWT&lt;/font&gt; 문자열 생성&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="520" y="305" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Huk9ythuZgXh1tu6I32B-12" value="2" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="482" y="310" width="40" height="40" as="geometry" />
